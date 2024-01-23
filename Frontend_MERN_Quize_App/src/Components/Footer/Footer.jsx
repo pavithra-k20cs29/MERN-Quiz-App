@@ -11,7 +11,7 @@ export const Footer = () => {
               className="text-xl uppercase p-1 border-b-2 border-white w-fit my-2"
               style={{
                 width: "fit-content",
-                color: "#4fa0e3",
+                color: "rgb(11, 84, 244)",
                 fontWeight: "bolder",
               }}
             >
@@ -26,7 +26,7 @@ export const Footer = () => {
               className="text-white text-xl uppercase p-1 border-b-2 border-white w-fit my-2"
               style={{
                 width: "fit-content",
-                color: "#4fa0e3",
+                color: "rgb(11, 84, 244)",
                 fontWeight: "bolder",
               }}
             >
@@ -46,40 +46,20 @@ export const Footer = () => {
               className="text-white text-xl uppercase p-1 border-b-2 border-white w-fit my-2"
               style={{
                 width: "fit-content",
-                color: "#4fa0e3",
+                color: "rgb(11, 84, 244)",
                 fontWeight: "bolder",
               }}
             >
               follow
             </h3>
             <div className="flex items-center">
-              <i className="fa fa-instagram text-white mr-1"></i>
-              <a
-                href="https://www.instagram.com/chavhansudhir/?hl=en"
-                className="no-underline text-white text-xs block xl:text-sm"
-                target="_blank"
-              >
-                Instagram
-              </a>
-            </div>
-            <div className="flex items-center">
               <i className="fa fa-linkedin text-white mr-1"></i>
               <a
-                href="https://www.linkedin.com/in/sudhirpc/"
+                href="https://www.linkedin.com/in/pavithra-k-bsccs/"
                 className="no-underline text-white text-xs block xl:text-sm"
                 target="_blank"
               >
                 LinkedIn
-              </a>
-            </div>
-            <div className="flex items-center">
-              <i className="fa fa-facebook text-white mr-1"></i>
-              <a
-                href="https://www.facebook.com/sudhir.chavhan.583"
-                className="no-underline text-white text-xs block xl:text-sm"
-                target="_blank"
-              >
-                Facebook
               </a>
             </div>
           </div>
@@ -88,7 +68,7 @@ export const Footer = () => {
               className="text-white text-xl uppercase p-1 border-b-2 border-white w-fit my-2"
               style={{
                 width: "fit-content",
-                color: "#4fa0e3",
+                color: "rgb(11, 84, 244)",
                 fontWeight: "bolder",
               }}
             >
@@ -100,7 +80,7 @@ export const Footer = () => {
                 style={{ marginRight: "2px" }}
               ></i>
               <span className="text-white text-xs xl:text-sm">
-                Yavatmal,Maharashtra
+                Pavithra K
               </span>
             </p>
             <p className="flex items-center my-1">
@@ -109,7 +89,7 @@ export const Footer = () => {
                 style={{ marginRight: "2px" }}
               ></i>
               <span className="text-white text-xs xl:text-sm">
-                sudhirchavhan100@gmail.com
+                pavithrakaruppusamy2003@gmail.com
               </span>
             </p>
             <p className="flex items-center my-1">
@@ -118,14 +98,16 @@ export const Footer = () => {
                 style={{ marginRight: "2px" }}
               ></i>
               <span className="text-white text-xs xl:text-sm">
-                +91 7774850751
+                +91 9384204141
               </span>
             </p>
           </div>
         </div>
       </div>
-      <p className="text-white text-center mt-4 pb-4">
-        MERN Quiz App Designed and Developed By Sudhir P Chavhan.
+      <p className="text-white text-center mt-4 pb-4" style={{
+                color: "rgb(11, 84, 244)",fontWeight:"600"
+              }} >
+        MERN Quiz App Designed and Developed By Pavithra K.
       </p>
     </div>
   );

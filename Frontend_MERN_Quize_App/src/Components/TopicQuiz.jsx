@@ -12,13 +12,13 @@ export const TopicQuiz = () => {
   return (
     <div className="mt-10 mb-10 ">
       <div className="justify-self-center ml-96">
-        <h1 className="font-bold text-2xl ml-44 pl-12">Prepare By Topics</h1>
+        <h1 className="quiz font-bold text-4xl ml-44 pl-12">QUIZ TOPICS</h1>
       </div>
-      <div className="grid grid-cols-2 w-11/12 p-10 m-auto gap-8 shadow-2xl">
+      <div className="grid grid-cols-2 w-11/12 p-10 m-auto gap-8 shadow-4xl">
         {userId ? (
           <Link to="/quiz/html">
             {" "}
-            <div className="border-2 cursor-pointer topicdiv text-white font-sans text-4xl font-bold  h-36 justify-items-center rounded-2xl pl-10 flex ">
+            <div className="border-2 cursor-pointer topicdiv text-white font-sans text-2xl font-bold  h-36 justify-items-center rounded-2xl pl-10 flex ">
               <div className="w-3/5 h-full bg-rgb(27,169,76)">
                 <h1 className="pt-12 pl-16 topicdivh1 ">HTML</h1>
               </div>

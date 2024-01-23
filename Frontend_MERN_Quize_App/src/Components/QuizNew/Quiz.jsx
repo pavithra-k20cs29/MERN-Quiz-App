@@ -1,6 +1,6 @@
 import React from "react";
 import "./Quiz.css";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { postQuizResult, postUserResult } from "../../Redux/action.js";

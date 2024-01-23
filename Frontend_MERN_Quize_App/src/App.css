@@ -3,15 +3,17 @@
 } 
 /* -----------------topicquize page------------- */
 .topicdiv{
-  background-color:rgb(27,169,76)
+  background-color:rgb(3, 70, 26)
 }
 .topicdivh1:hover{
   font: weight 600px;;
   font-size:larger;
   /* font-style:italic; */
-  color:rgb(154, 87, 87)
+  color:rgb(23, 179, 166)
 }
-
+.quiz{
+  color: rgb(3, 69, 73);
+}
 
 /* ----------   anwer tag     ------------- */
 .hoverOption:hover{

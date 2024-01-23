@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { getAllUserDataFromBackend } from "../../Redux/action.js";
-import { QuizForm } from "./QuizForm.jsx";
+// import { QuizForm } from "./QuizForm.jsx";
 import { UserdetailForAdmin } from "./UserdetailForAdmin.jsx";
 
 export const Admin = () => {
@@ -40,19 +40,17 @@ export const Admin = () => {
                 className="title text-4xl font-semibold  text-sky-500 pb-4 ml-2 mt-0"
                 style={{ fontFamily: "Quicksand" }}
               >
-                Sudhir P Chavhan 👋
+                Pavithra K 👋
               </h1>{" "}
             </h1>
           </div>
           <div className=" ml-32 leading-normal">
             <p className="text-lg text-black-100 leading-loose">
-              A Full Stack Web Developer 🚀 from Nagpur, India, currently 💻 I'm
-              doing my Full Stack Development from Masai School. I am passionate
-              about technology and want to learn & explore new technologies. I
-              love travelling and doing farming in free time.
+              Hey Everyone ! A Full stack developer who have passionate about
+              technology and want to learn & explore new technologies.
             </p>
           </div>
-          <div className="flex mt-12 space-x-4 ml-32 ">
+          {/* <div className="flex mt-12 space-x-4 ml-32 ">
             <a
               href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -121,11 +119,11 @@ export const Admin = () => {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="w-5/12 p-16 ml-24">
           <img
-            src="./sudhir.jpg"
+            src="./profileimage.jpg"
             alt="admin"
             className="h-[300px] w-[300px] rounded-full "
           />

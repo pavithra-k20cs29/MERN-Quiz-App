@@ -9,7 +9,8 @@ router.get("/",async(req,res)=>{
     try{
 const Postquizdata=await Postquiz.find().lean().exec()
 res.send(Postquizdata)
-    }catch(err){
+    }
+    catch(err){
 return res.status(500).send(err.message)
     }
 })
